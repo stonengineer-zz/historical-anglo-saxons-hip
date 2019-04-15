@@ -1468,7 +1468,7 @@
 	849.1.1={
 		birth = yes
 	}
-	868.1.1 = {
+	866.1.1 = {
 		add_spouse=1226338
 	}
 	890.1.1 = {
@@ -1753,6 +1753,7 @@
 	dynasty=100072
 	religion="catholic"
 	culture="saxon"
+	father=205186
 	769.1.1={
 		birth="769.1.1"
 	}
@@ -2420,6 +2421,7 @@
 	dynasty=1000100026
 	religion="catholic"
 	culture="saxon"
+	father=1226384
 	830.1.1 = {
 		birth="830.1.1"
 	}
@@ -2476,6 +2478,7 @@
 	dynasty=814
 	religion="catholic"
 	culture="saxon"
+	father=205230
 	martial=5
 	diplomacy=3
 	stewardship=3
@@ -3067,6 +3070,9 @@
 	father=205025
 	425.1.1={
 		birth="425.1.1"
+		create_bloodline = {
+			type = has_hengest_horsa
+		}
 	}
 	500.1.1={
 		death="500.1.1"
@@ -3080,6 +3086,9 @@
 	father=205025
 	426.1.1={
 		birth="426.1.1"
+		create_bloodline = {
+			type = has_hengest_horsa
+		}
 	}
 	500.1.1={
 		death="500.1.1"
@@ -3676,6 +3685,7 @@
 	dynasty=1000100042
 	religion="catholic"
 	culture="saxon"
+	father=1226279
 	810.1.1={
 		birth="810.1.1"
 	}
@@ -3807,6 +3817,9 @@
 	trait= zealous
 	600.1.1={
 		birth="600.1.1"
+		create_bloodline = {
+			type = has_penda
+		}
 	}
 	655.11.15={
 		death="655.11.15"
@@ -4014,6 +4027,157 @@
 	#mother=Marcellina
 	730.1.1={
 		birth="730.1.1"
+		create_bloodline {
+			type = has_offa
+		}
+	}
+	769.1.1={
+		effect = { # Waerod of Mercia
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 150 150 }
+					pikemen = { 50 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 150 150 }
+					pikemen = { 50 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 150 150 }
+					pikemen = { 50 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 15 150 }
+					pikemen = { 5 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 15 150 }
+					pikemen = { 5 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 15 150 }
+					pikemen = { 5 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 15 150 }
+					pikemen = { 5 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			spawn_unit = {
+				province = 67 # Warwick
+				owner = ROOT
+				#leader = ROOT
+				troops = {
+					heavy_infantry = { 15 150 }
+					pikemen = { 5 50 }
+				}
+				attrition = 0.5
+				reinforces = yes
+				reinforce_rate_multiplier = 0.5
+			}
+			create_character = {
+				random_traits = yes
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 5
+				}
+				trait = tough_soldier
+			}
+			new_character = {
+				spawn_unit = {
+					province = 67 # Warwick
+					owner = PREV
+					troops = {
+						heavy_infantry = { 150 150 }
+						pikemen = { 50 50 }
+					}
+					attrition = 0.5
+					reinforces = yes
+					reinforce_rate_multiplier = 0.5
+				}
+			}
+			create_character = {
+				random_traits = yes
+				religion = ROOT
+				culture = ROOT
+				female = no
+				age = 23
+				attributes = {
+					martial = 5
+				}
+				trait = tough_soldier
+			}
+			new_character = {
+				spawn_unit = {
+					province = 67 # Warwick
+					owner = PREV
+					troops = {
+						heavy_infantry = { 150 150 }
+						pikemen = { 50 50 }
+					}
+					attrition = 0.5
+					reinforces = yes
+					reinforce_rate_multiplier = 0.5
+				}
+			}
+		}
 	}
 	760.1.1={
 		add_spouse=205074
@@ -4591,6 +4755,9 @@
 	culture="saxon"
 	460.1.1={
 		birth="460.1.1"
+		create_bloodline = {
+			type = has_cerdic
+		}
 	}
 	534.1.1={
 		death="534.1.1"
@@ -5177,8 +5344,8 @@
 	720.1.1={
 		birth="720.1.1"
 	}
-	748.1.1={
-		death="748.1.1"
+	805.1.1={
+		death="805.1.1"
 	}
 }
 205187 = {
@@ -6007,6 +6174,9 @@
 	father=205201
 	505.1.1={
 		birth="505.1.1"
+		create_bloodline = {
+			type = has_ida
+		}
 	}
 	559.1.1={
 		death="559.1.1"
@@ -6418,8 +6588,8 @@
 	767.1.1={
 		birth="767.1.1"
 	}
-	791.1.1={
-		death="791.1.1"
+	831.1.1={
+		death="831.1.1"
 	}
 }
 205231 = {

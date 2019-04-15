@@ -678,6 +678,7 @@
 	dynasty=1000100026
 	religion="catholic"
 	culture="saxon"
+	father=205063
 	740.1.1 = {
 		birth = yes
 	}
@@ -772,6 +773,7 @@
 	dynasty=1000100026
 	religion="catholic"
 	culture="saxon"
+	father=1226396
 	805.1.1 = {
 		birth = yes
 	}
@@ -2903,6 +2905,19 @@
 	}	
 	1082.1.1={
 		death=yes
+	}
+}
+1226279 = {
+	name="Thurstan"
+	dynasty=1047001
+	religion="catholic"
+	culture="saxon"
+	father=205049
+	755.1.1={
+		birth="735.1.1"
+	}
+	819.1.1={
+		death="779.1.1"
 	}
 }
 
