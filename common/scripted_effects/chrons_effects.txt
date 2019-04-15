@@ -1,0 +1,29 @@
+###TRAIT ADDING EFFECTS###
+#Add new ones in alphabetical order.
+
+#With notification
+add_chrons_symptom_effect = {
+	random_list = {
+		10 = {
+			modifier = {
+				factor = 0
+				trait = fatigue 
+			}
+			character_event = { id = RIP.5009 }
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				trait = vomiting
+			}
+			character_event = { id = RIP.5003 }
+		}
+		10 = {
+			modifier = {
+				factor = 0
+				trait = abdominal_pain
+			}
+			character_event = { id = RIP.5008 }
+		}
+	}
+}

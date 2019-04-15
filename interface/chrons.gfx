@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_has_chrons"
+		texturefile = "gfx/traits/chrons.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}
