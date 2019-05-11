@@ -1814,14 +1814,18 @@
 	dynasty=100072
 	religion="catholic"
 	culture="saxon"
-	trait=charismatic_negotiator
-	trait=erudite
+	trait=martial_cleric
+	trait=attractive
+	trait=is_malnourished
+	trait=trusting
 	trait=gregarious
 	trait=kind
 	trait=content
-	trait=charitable
+	trait=honest
+	trait=stressed
+	health=2.75
 	father=33355
-        mother=1226366
+	mother=1226366
 	840.1.1={
 		birth="840.1.1"
 	}

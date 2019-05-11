@@ -1302,7 +1302,7 @@ character_event = { #vomiting can lead to flu Food_Poisoning cancer chrons
 					character_event = { id = RIP.5020 days = 14 random = 14 }
 					}
 				}
-				100 = {
+				10 = {
 					modifier = {
 						factor = 0 
 						OR = {
@@ -1314,12 +1314,12 @@ character_event = { #vomiting can lead to flu Food_Poisoning cancer chrons
 						}
 					}
 					modifier = {
-						factor = 0.75
-						NOT = { age = 13 }
+						factor = 0.1
+						age = 13
 					}
 					modifier = {
-						factor = 0.5
-						age = 13
+						factor = 0
+						NOT = { age = 13 }
 					}
 				
 					if = {
@@ -2616,12 +2616,12 @@ character_event = { #abdominal_pain can lead to typhoid_fever typhus flu dysente
 						}
 					}
 					modifier = {
-						factor = 0.75
-						NOT = { age = 13 }
+						factor = 0.1
+						age = 13
 					}
 					modifier = {
-						factor = 0.5
-						age = 13
+						factor = 0
+						NOT = { age = 13 }
 					}
 				
 					if = {
@@ -2919,12 +2919,12 @@ character_event = { #fatigue can lead to tuberculosis typhus flu gout rabies can
 						}
 					}
 					modifier = {
-						factor = 0.75
-						NOT = { age = 13 }
+						factor = 0.1
+						age = 13
 					}
 					modifier = {
-						factor = 0.5
-						age = 13
+						factor = 0
+						NOT = { age = 13 }
 					}
 				
 					if = {

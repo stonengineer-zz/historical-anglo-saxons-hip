@@ -436,7 +436,7 @@
 	culture=norse
 	father=6811
 	mother=6872
-	864.1.1={
+	868.1.1={
 		birth = yes
 	}
 	890.1.1={
@@ -449,6 +449,14 @@
 	female=yes
 	religion=norse_pagan
 	culture=norse
+	trait=elusive_shadow
+	trait=fair
+	trait=quick
+	trait=robust
+	trait=mystic
+	trait=patient
+	trait=diligent
+	trait=chaste
 	847.1.1={
 		birth = yes
 	}
@@ -4167,14 +4175,15 @@
 	martial=8
 	diplomacy=9
 	stewardship=6
-	trait=ambitious
+	trait=skilled_tactician
+	trait=strong
+	trait=shrewd
+	trait=viking #semi-historical, raid on Constantinople
 	trait=trusting
 	trait=greedy
 	trait=diligent
 	trait=patient
-	trait=viking #semi-historical, raid on Constantinople
-	trait=skilled_tactician
-	trait=strong
+	trait=ambitious
 	give_nickname = nick_the_stranger # Oskyldr -> Askold
 	845.1.1={
 		birth = yes	
@@ -4194,7 +4203,8 @@
 							heavy_infantry = { 135 135 }
 							archers = { 178 178 }
 						}
-						attrition = 1.0
+						attrition = 0
+						reinforces = yes
 						earmark = start_troops
 					}
 					spawn_unit = {
@@ -4204,7 +4214,8 @@
 							heavy_infantry = { 135 135 }
 							archers = { 178 178 }
 						}
-						attrition = 1.0
+						attrition = 0
+						reinforces = yes
 						earmark = start_troops
 					}
 					spawn_unit = {
@@ -4214,7 +4225,8 @@
 							heavy_infantry = { 135 135 }
 							archers = { 178 178 }
 						}
-						attrition = 1.0
+						attrition = 0
+						reinforces = yes
 						earmark = start_troops
 					}
 					spawn_fleet = {
@@ -4227,42 +4239,6 @@
 						cannot_inherit = yes # disbands on inheritance
 					}
 				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = ROOT
-				culture = ROOT
-				female = no
-				age = 27
-				attributes = {
-					martial = 7
-				}
-				trait = tough_soldier
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = ROOT
-				culture = ROOT
-				female = no
-				age = 29
-				attributes = {
-					martial = 7
-				}
-				trait = skilled_tactician
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = ROOT
-				culture = ROOT
-				female = no
-				age = 31
-				attributes = {
-					martial = 8
-				}
-				trait = tough_soldier
 			}
 		}
 	}

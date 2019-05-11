@@ -2,6 +2,7 @@
 
 865.1.1 = {
 	liege = k_east_anglia
+	de_jure_liege = d_norfolk
 	holder = 163064
 }
 # Treaty of Alfred and Guthrum
@@ -31,6 +32,7 @@
 	holder = 1226379 # Leofsige Earldorman of Eastanglea 993-1002
 }
 1002.1.1 = {
+	de_jure_liege = d_essex
 	holder = 1226380 # Ulfcytel" "Warleader" and "Dux" of eastanglia 1002-1016
 }
 1018.1.1 = {

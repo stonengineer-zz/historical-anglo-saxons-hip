@@ -5,6 +5,7 @@
 	holder = 33354 # Ecgberht
 }
 839.2.5 = {
+	de_jure_liege = d_bedford
 	holder = 33355 # Aethelwulf
 }
 856.1.1 = {
@@ -57,6 +58,7 @@
 	holder = 106 # Aethelraed the Unready
 }
 1016.4.24 = {
+	de_jure_liege = d_essex
 	holder = 108 # Edmund Ironside
 }
 1016.11.30 = {
